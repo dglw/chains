@@ -2,7 +2,7 @@
   "name": "Base Sepolia Testnet",
   "chain": "ETH",
   "rpc": [
-    "https://https://sepolia.base.org",
+    "https://sepolia.base.org",
     "https://base-sepolia-rpc.publicnode.com",
     "wss://base-sepolia-rpc.publicnode.com"
   ],
@@ -19,6 +19,11 @@
   "slip44": 1,
   "icon": "baseTestnet",
   "explorers": [
+    {
+      "name": "basescan-sepolia",
+      "url": "https://sepolia.basescan.org",
+      "standard": "EIP3091"
+    },
     {
       "name": "basescout",
       "url": "https://base-sepolia.blockscout.com",
